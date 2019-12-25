@@ -1,0 +1,25 @@
+{
+  "name": "adorncommerce/loginwithmobile",
+  "description": "Customer can login with mobile number",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Adorncommerce",
+      "email": "info@adorncommerce.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Adorncommerce\\Loginwithmobile\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
